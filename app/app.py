@@ -23,7 +23,7 @@ def get_pyg_html(df: pd.DataFrame) -> str:
 
 @st.cache_data
 def get_df() -> pd.DataFrame:
-    return pd.read_csv("/bike_sharing_dc.csv")
+    return pd.read_csv("/random_people.csv")
 
 df = get_df()
 
